@@ -546,5 +546,133 @@
   {
     "word": "y-axis",
     "definition": "The y-axis, or vertical axis, is the line that extends from the top to the bottom of a graph."
+  },
+    {
+    "word": "event",
+    "definition": "A group of outcomes."
+  },
+  {
+    "word": "statistics",
+    "definition": "A collection of numbers that represent facts or provide information."
+  },
+  {
+    "word": "population",
+    "definition": "The entire group of interest to a researcher."
+  },
+  {
+    "word": "median",
+    "definition": "The middle value of a group of numbers."
+  },
+  {
+    "word": "union",
+    "definition": "A set made up of all values included in two or more sets."
+  },
+  {
+    "word": "probability",
+    "definition": "A numerical calculation of how likely something is to occur."
+  },
+  {
+    "word": "range",
+    "definition": "The difference between the highest value and the lowest value in a data set."
+  },
+  {
+    "word": "sample",
+    "definition": "A subset of a population meant to be representative of the population."
+  },
+  {
+    "word": "solution",
+    "definition": "A way to solve a problem."
+  },
+  {
+    "word": "redefine",
+    "definition": "To change something's meaning."
+  },
+  {
+    "word": "approach",
+    "definition": "A way of looking at something."
+  },
+  {
+    "word": "iterative",
+    "definition": "Intended to be repeated over and over again."
+  },
+  {
+    "word": "problem solving",
+    "definition": "The ability to identify and address problems."
+  },
+  {
+    "word": "attack",
+    "definition": "To make a determined effort to solve a problem."
+  },
+  {
+    "word": "problem identification",
+    "definition": "The process of defining a problem."
+  },
+  {
+    "word": "analysis",
+    "definition": "An examination or report on something."
+  },
+  {
+    "word": "pressure",
+    "definition": "Force per unit of area applied to an object."
+  },
+  {
+    "word": "outlet",
+    "definition": "A place where something can exit something else."
+  },
+  {
+    "word": "rate",
+    "definition": "The measurement of a quantity, such as frequency, applied over another quantity."
+  },
+  {
+    "word": "driving force",
+    "definition": "The power that causes an object to start or continue moving."
+  },
+  {
+    "word": "viscosity",
+    "definition": "The measure of a liquid's resistance to being deformed."
+  },
+  {
+    "word": "inlet",
+    "definition": "A place where something can enter something else."
+  },
+  {
+    "word": "rate process",
+    "definition": "A process with results that depend on the movement of different variables."
+  },
+  {
+    "word": "flux",
+    "definition": "The amount of something that passes through an area over a given time."
+  },
+  {
+    "word": "system",
+    "definition": "A set of properties or processes."
+  },
+  {
+    "word": "final",
+    "definition": "Occurring at the end of something."
+  },
+  {
+    "word": "generation",
+    "definition": "The creation of something."
+  },
+  {
+    "word": "input",
+    "definition": "Something that goes into a system."
+  },
+  {
+    "word": "consumption",
+    "definition": "The act of using something."
+  },
+  {
+    "word": "intensive quantity",
+    "definition": "A measurement that doesn't change with the amount of a substance."
+  },
+  {
+    "word": "initial",
+    "definition": "Occurring at the beginning of something."
+  },
+  {
+    "word": "output",
+    "definition": "Something that is removed from a system."
   }
 ]
