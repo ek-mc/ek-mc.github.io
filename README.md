@@ -7,7 +7,9 @@ Live demo: https://ek-mc.github.io/
 
 
 ## Overview
-TBD.
+Personal project hub for `ek-mc` repositories and live tools.
+
+Includes highlights like `brender` (npm package): https://www.npmjs.com/package/brender
 
 ## Changelog
 See [CHANGELOG.md](CHANGELOG.md).
