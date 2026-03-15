@@ -1,6 +1,6 @@
 # ek-mc.github.io
 
-Status: Active | Last release: v0.1.1 | Last update: 2026-03-09 | Live: https://ek-mc.github.io/
+Status: Active | Last release: v0.1.1 | Last update: 2026-03-15 | Live: https://ek-mc.github.io/
 
 
 Live demo: https://ek-mc.github.io/
