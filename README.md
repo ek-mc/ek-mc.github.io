@@ -3,9 +3,6 @@
 Live: https://ek-mc.github.io/
 
 
-Live demo: https://ek-mc.github.io/
-
-
 ## Overview
 Personal project hub for `ek-mc` repositories and live tools.
 
