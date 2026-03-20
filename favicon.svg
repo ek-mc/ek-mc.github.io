@@ -1,11 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#22c55e"/>
-      <stop offset="100%" stop-color="#3b82f6"/>
-    </linearGradient>
+    <clipPath id="clipCircle">
+      <circle cx="128" cy="128" r="124" />
+    </clipPath>
   </defs>
-  <rect width="64" height="64" rx="14" fill="#0f172a"/>
-  <circle cx="32" cy="32" r="21" fill="url(#g)" opacity="0.95"/>
-  <path d="M32 17l3.7 8.1 8.8 1.1-6.5 5.9 1.8 8.6L32 36.2l-7.8 4.5 1.8-8.6-6.5-5.9 8.8-1.1z" fill="#0f172a"/>
+  <rect width="256" height="256" rx="128" fill="#0f1115" />
+  <image
+    href="https://avatars.githubusercontent.com/u/245786999?v=4"
+    x="4"
+    y="4"
+    width="248"
+    height="248"
+    preserveAspectRatio="xMidYMid slice"
+    clip-path="url(#clipCircle)"
+  />
+  <circle cx="128" cy="128" r="124" fill="none" stroke="#2a3140" stroke-width="8" />
 </svg>
