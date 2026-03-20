@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Changed
+- Homepage refresh with centered clickable profile avatar hero section and richer profile links.
+- Removed hero subtitle line for a cleaner top section.
+- Updated favicon to use custom profile image as optimized `favicon.png`.
+- Updated page metadata image references from SVG favicon to PNG favicon.
+
 ## [0.1.2] - 2026-03-15
 ### Changed
 - Added `mini-firewall` project card to hub index.
