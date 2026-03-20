@@ -32,11 +32,21 @@
     }
     </script>
     <style>
-      :root { --bg:#0f1115; --card:#171b24; --text:#eef3ff; --muted:#9fb0cc; --accent:#7fb3ff; }
+      :root { --bg:#0f1115; --card:#171b24; --text:#eef3ff; --muted:#9fb0cc; --accent:#7fb3ff; --line:#2a3140; }
       *{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--text)}
       .wrap{max-width:980px;margin:0 auto;padding:28px 16px 56px}
       h1{margin:0 0 8px;font-size:34px}
       p.sub{margin:0 0 26px;color:var(--muted)}
+      .hero{display:flex;flex-direction:column;align-items:center;text-align:center;padding:20px 0 10px}
+      .avatar-link{display:inline-flex;border-radius:999px;border:2px solid var(--line);padding:4px;transition:.2s transform,.2s border-color}
+      .avatar-link:hover{transform:translateY(-2px);border-color:var(--accent)}
+      .avatar{width:124px;height:124px;border-radius:999px;display:block;object-fit:cover}
+      .bio{max-width:700px;color:var(--muted);margin:10px 0 12px;line-height:1.5}
+      .pills{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin:8px 0 18px}
+      .pill{font-size:13px;color:var(--text);border:1px solid var(--line);background:#141925;padding:6px 10px;border-radius:999px}
+      .hero-links{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-bottom:18px}
+      .btn{border:1px solid var(--line);background:#141925;color:var(--text);padding:8px 12px;border-radius:10px;text-decoration:none;font-size:14px}
+      .btn:hover{border-color:var(--accent);text-decoration:none}
       .category{margin:20px 0 8px;font-size:18px;color:var(--accent)}
       .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
       .card{background:var(--card);border:1px solid #2a3140;border-radius:14px;padding:14px}
@@ -50,8 +60,26 @@
   </head>
   <body>
     <main class="wrap">
-      <h1>ek-mc</h1>
-      <p class="sub">Project hub — tools, games, extensions, and experiments.</p>
+      <section class="hero">
+        <a class="avatar-link" href="https://github.com/ek-mc" target="_blank" rel="noopener">
+          <img class="avatar" src="https://avatars.githubusercontent.com/u/245786999?v=4" alt="ek-mc GitHub profile picture" />
+        </a>
+        <h1>ek-mc</h1>
+        <p class="sub">Civil engineering tools, practical utilities, and build-in-public experiments.</p>
+        <p class="bio">👷 Aspiring civil engineer from Athens. I build useful tools around DXF/CAD workflows, calculators, and lightweight automation scripts.</p>
+        <div class="pills">
+          <span class="pill">📍 Athens, Greece</span>
+          <span class="pill">🧰 Civil + CAD + DXF</span>
+          <span class="pill">🐙 GitHub: ek-mc</span>
+          <span class="pill">🛠️ 15+ public repos</span>
+        </div>
+        <div class="hero-links">
+          <a class="btn" href="https://github.com/ek-mc" target="_blank" rel="noopener">GitHub Profile</a>
+          <a class="btn" href="https://github.com/ek-mc?tab=repositories" target="_blank" rel="noopener">Repositories</a>
+          <a class="btn" href="https://makerworld.com/en/@pikatsu" target="_blank" rel="noopener">MakerWorld</a>
+          <a class="btn" href="https://github.com/ek-mc/ek-mc-projects" target="_blank" rel="noopener">Projects Index</a>
+        </div>
+      </section>
 
       <h2 class="category">Civil Engineering Tools</h2>
       <section class="grid">
