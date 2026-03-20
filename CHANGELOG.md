@@ -2,8 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
-
+## [0.1.3] - 2026-03-20
 ### Changed
 - Homepage refresh with centered clickable profile avatar hero section and richer profile links.
 - Removed hero subtitle line for a cleaner top section.
