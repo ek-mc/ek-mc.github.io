@@ -1,18 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <defs>
-    <clipPath id="clipCircle">
-      <circle cx="128" cy="128" r="124" />
+    <clipPath id="clip">
+      <circle cx="128" cy="128" r="120"/>
     </clipPath>
   </defs>
-  <rect width="256" height="256" rx="128" fill="#0f1115" />
-  <image
-    href="https://avatars.githubusercontent.com/u/245786999?v=4"
-    x="4"
-    y="4"
-    width="248"
-    height="248"
-    preserveAspectRatio="xMidYMid slice"
-    clip-path="url(#clipCircle)"
-  />
-  <circle cx="128" cy="128" r="124" fill="none" stroke="#2a3140" stroke-width="8" />
+  <rect width="256" height="256" rx="128" fill="#0f1115"/>
+  <image href="./assets/favicon-center.png" x="0" y="0" width="256" height="256" preserveAspectRatio="xMidYMid slice" clip-path="url(#clip)"/>
+  <circle cx="128" cy="128" r="120" fill="none" stroke="#2a3140" stroke-width="8"/>
 </svg>
