@@ -1,5 +1,9 @@
 # Changelog
 
+## [2026-04-05]
+- Removed the transient `openkaek/` published subfolder after moving the site to direct GitHub Pages deployment from the `openkaek` repository.
+
+
 All notable changes to this project will be documented in this file.
 
 ## [0.1.3] - 2026-03-20
