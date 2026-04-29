@@ -31,3 +31,8 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - 2026-03-06
 ### Changed
 - Standardized README/CHANGELOG structure.
+
+## 2026-04-29
+
+- Added basic GitHub Actions CI workflow (`.github/workflows/basic-ci.yml`).
+- Maintenance: closed stale dependency PR queue for cleaner triage (where applicable).
