@@ -36,3 +36,8 @@ All notable changes to this project will be documented in this file.
 
 - Added basic GitHub Actions CI workflow (`.github/workflows/basic-ci.yml`).
 - Maintenance: closed stale dependency PR queue for cleaner triage (where applicable).
+
+## 2026-04-30
+
+- Removed Physics Game project card from public hub listing.
+- Removed links to archived/private projects from main showcase.
