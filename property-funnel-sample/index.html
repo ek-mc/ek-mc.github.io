@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Property Development Funnel | Sample</title>
+  <meta name="description" content="Simple property development onboarding funnel sample site." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav container">
+      <div class="brand">MC <span>Development</span></div>
+      <a class="btn btn-ghost" href="#contact">Book Intro</a>
+    </nav>
+    <div class="container hero-content">
+      <p class="eyebrow">Student Project · Professional Life Course</p>
+      <h1>Property Development Feasibility for Small Investors & Owners</h1>
+      <p class="lead">A clear, structured first-step process to decide whether a property idea is worth moving forward.</p>
+      <div class="hero-cta">
+        <a class="btn" href="#contact">Get Initial Assessment</a>
+        <a class="btn btn-ghost" href="#process">See Process</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section container">
+      <h2>What You Get</h2>
+      <div class="grid three">
+        <article class="card"><h3>Site Review</h3><p>Quick technical scan: location, constraints, and basic opportunity.</p></article>
+        <article class="card"><h3>Feasibility Snapshot</h3><p>High-level costs, key risks, and potential pathways.</p></article>
+        <article class="card"><h3>Next-Step Plan</h3><p>Simple action roadmap so you know what to do next.</p></article>
+      </div>
+    </section>
+
+    <section id="process" class="section section-alt">
+      <div class="container">
+        <h2>How The Funnel Works</h2>
+        <div class="steps">
+          <div class="step"><span>1</span><h3>Submit Details</h3><p>Plot/building basics, budget range, and timeline.</p></div>
+          <div class="step"><span>2</span><h3>Discovery Call</h3><p>20-minute call to clarify goals and constraints.</p></div>
+          <div class="step"><span>3</span><h3>Initial Snapshot</h3><p>Receive a one-page feasibility summary.</p></div>
+          <div class="step"><span>4</span><h3>Decision</h3><p>Proceed, pause, or re-scope with confidence.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <h2>Who This Is For</h2>
+      <ul class="list">
+        <li>Small landowners with underused plots</li>
+        <li>First-time investors evaluating opportunities</li>
+        <li>Families considering redevelopment of old buildings</li>
+      </ul>
+    </section>
+
+    <section class="section container">
+      <h2>Mini Case Example</h2>
+      <div class="card case">
+        <p><strong>Athens, 320m² plot:</strong> Initial review highlighted zoning constraints, identified one viable massing strategy, and recommended permit-risk checks before acquisition.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2>Request Initial Review</h2>
+        <form class="form" onsubmit="event.preventDefault(); alert('Demo form submitted.');">
+          <input type="text" placeholder="Full Name" required>
+          <input type="email" placeholder="Email" required>
+          <input type="text" placeholder="Location / Area" required>
+          <input type="text" placeholder="Property Type (plot, building, etc.)" required>
+          <input type="text" placeholder="Budget Range" required>
+          <textarea placeholder="Goal and timeline" rows="4" required></textarea>
+          <button class="btn" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Created by a Civil Engineering student · Mediterranean College / University of Derby</p>
+      <p class="muted">Educational/professional support. Not legal or financial advice.</p>
+    </div>
+  </footer>
+</body>
+</html>
